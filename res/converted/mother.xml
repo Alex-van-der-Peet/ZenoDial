@@ -1,0 +1,15 @@
+<category>
+  <rule id="mother">
+    <case>
+      <condition operator="or">
+        <if relation="in">mother</if>
+      </condition>
+			<effect>
+				<then util="next">What? My mother?</then>
+				<then util="previous">Well this is a good question. Being a robot, I don't actually have a biological mother. But do I have an adopted mother or a surrogate mother? Maybe I have more than one mother?</then>
+				<then util="random">Well, actually, Can you tell me about your mother.</then>
+				<then util="random">I guess the subject is complicated. I mean, I wasn't born really, I was built by a bunch of people. And I wasn't really raised, I was kind of programmed. So I guess that a bunch of nerd are like a surrogate mother to me.</then>
+			</effect>
+    </case>
+  </rule>
+</category>
